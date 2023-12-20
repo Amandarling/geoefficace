@@ -1,3 +1,55 @@
+     /* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+     /* Reset CSS */
      .div {
       background-color: #fff;
       display: flex;
@@ -83,7 +135,8 @@
     @media (max-width: 991px) {
       .div-6 {
         max-width: 100%;
-        margin-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
       }
     }
     .div-7 {
@@ -115,12 +168,9 @@
       }
     }
     .img-2 {
-      aspect-ratio: 2.22;
       object-fit: contain;
       object-position: center;
       width: 160px;
-      justify-content: center;
-      align-items: center;
       overflow: hidden;
       align-self: end;
       margin-top: 32px;
@@ -173,7 +223,7 @@
       .div-11 {
         white-space: initial;
         margin-top: 40px;
-        padding: 0 20px;
+        padding: 16px 24px;
       }
     }
     .column-2 {
@@ -199,7 +249,7 @@
     }
     @media (max-width: 991px) {
       .img-3 {
-        max-width: 100%;
+        max-width: 80%;
         margin-top: 40px;
       }
     }
@@ -226,6 +276,7 @@
     @media (max-width: 991px) {
       .div-13 {
         max-width: 100%;
+        margin-top: 10px;
       }
     }
     .div-14 {
@@ -237,7 +288,7 @@
     @media (max-width: 991px) {
       .div-14 {
         max-width: 100%;
-        margin-top: 40px;
+        margin-top: 50px;
       }
     }
     .div-15 {
@@ -285,7 +336,7 @@
     }
     @media (max-width: 991px) {
       .div-17 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -314,6 +365,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-19 {
+        margin-bottom: 20px;
+      }
+    }
     .column-4 {
       display: flex;
       flex-direction: column;
@@ -324,6 +380,7 @@
     @media (max-width: 991px) {
       .column-4 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-20 {
@@ -338,7 +395,7 @@
     }
     @media (max-width: 991px) {
       .div-20 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -367,6 +424,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-22 {
+        margin-bottom: 20px;
+      }
+     }
     .column-5 {
       display: flex;
       flex-direction: column;
@@ -377,6 +439,7 @@
     @media (max-width: 991px) {
       .column-5 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-23 {
@@ -391,7 +454,7 @@
     }
     @media (max-width: 991px) {
       .div-23 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -420,6 +483,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-25 {
+        margin-bottom: 20px;
+      }
+     }
     .div-26 {
       align-self: stretch;
       margin-top: 40px;
@@ -464,7 +532,7 @@
     }
     @media (max-width: 991px) {
       .div-28 {
-        margin-top: 32px;
+        margin-top: 10px;
         padding: 0 20px;
       }
     }
@@ -505,6 +573,7 @@
     @media (max-width: 991px) {
       .column-7 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-31 {
@@ -519,7 +588,7 @@
     }
     @media (max-width: 991px) {
       .div-31 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -548,6 +617,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-33 {
+        margin-bottom: 20px;
+      }
+     }
     .column-8 {
       display: flex;
       flex-direction: column;
@@ -558,6 +632,7 @@
     @media (max-width: 991px) {
       .column-8 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-34 {
@@ -572,7 +647,7 @@
     }
     @media (max-width: 991px) {
       .div-34 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -633,6 +708,7 @@
     @media (max-width: 991px) {
       .column-9 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-39 {
@@ -647,7 +723,7 @@
     }
     @media (max-width: 991px) {
       .div-39 {
-        margin-top: 32px;
+        margin-top: 10px;
         padding: 0 20px;
       }
     }
@@ -676,6 +752,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-41 {
+        margin-bottom: 20px;
+      }
+     }
     .column-10 {
       display: flex;
       flex-direction: column;
@@ -686,6 +767,7 @@
     @media (max-width: 991px) {
       .column-10 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-42 {
@@ -700,7 +782,7 @@
     }
     @media (max-width: 991px) {
       .div-42 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -739,6 +821,7 @@
     @media (max-width: 991px) {
       .column-11 {
         width: 100%;
+        margin-left: 0px;
       }
     }
     .div-45 {
@@ -753,7 +836,7 @@
     }
     @media (max-width: 991px) {
       .div-45 {
-        margin-top: 32px;
+        margin-top: 50px;
         padding: 0 20px;
       }
     }
@@ -782,6 +865,11 @@
       margin-top: 16px;
       font: 400 16px/24px Inter, sans-serif;
     }
+    @media (max-width: 991px) {
+      .div-47 {
+        margin-bottom: 20px;
+      }
+     }
     .div-48 {
       align-self: stretch;
       margin-top: 120px;
@@ -813,11 +901,58 @@
     @media (max-width: 991px) {
       .column-12 {
         width: 100%;
+        margin-top: -30px;
       }
     }
     .div-50 {
       display: flex;
       flex-direction: column;
+    }
+    #carousel-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    #carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    #indicators-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .indicator {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #D9D9D9; 
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .indicator.active {
+      background-color: #98C000; 
     }
     @media (max-width: 991px) {
       .div-50 {
@@ -878,6 +1013,7 @@
     @media (max-width: 991px) {
       .div-52 {
         max-width: 100%;
+        margin-top: 10px;
       }
     }
     .div-53 {
@@ -888,7 +1024,7 @@
     @media (max-width: 991px) {
       .div-53 {
         max-width: 100%;
-        margin-top: 40px;
+        margin-top: 50px;
       }
     }
     .div-54 {
@@ -899,6 +1035,7 @@
     @media (max-width: 991px) {
       .div-54 {
         max-width: 100%;
+        margin-top: 50px;
       }
     }
     .div-55 {
@@ -962,7 +1099,7 @@
     }
     @media (max-width: 991px) {
       .div-60 {
-        margin-top: 40px;
+        margin-top: 50px;
         white-space: initial;
       }
     }
@@ -994,7 +1131,8 @@
     }
     @media (max-width: 991px) {
       .div-62 {
-        margin-top: 40px;
+        margin-top: 100px;
+        width: 808px;
       }
     }
     .div-63 {
@@ -1137,8 +1275,7 @@
     @media (max-width: 991px) {
       .div-72 {
         max-width: 100%;
-        margin-top: 40px;
-        padding: 0 20px;
+        margin-top: 100px;
       }
     }
     .div-73 {
@@ -1182,4 +1319,10 @@
       width: 55px;
       overflow: hidden;
       max-width: 100%;
+    }
+    @media (max-width: 1271px) {
+.div-12{
+  padding: 0px;
+  width: 90%;
+}
     }
