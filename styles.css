@@ -1246,7 +1246,6 @@ table {
     }
     @media (max-width: 991px) {
       .div-70 {
-        max-width: 100%;
         flex-wrap: wrap;
       }
     }
@@ -1383,6 +1382,9 @@ font-size: 2rem;
   width: 220px;
   padding: 11px;
   justify-content: space-between;
+}
+.div-70{
+  width: 283px !important;
 }
 }
 
