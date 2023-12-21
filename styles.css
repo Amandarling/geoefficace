@@ -1351,7 +1351,13 @@ table {
   .div-71{
     width: 297px;
   }
-
+  .div-73 {   
+    width: 220px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: -9px;
+  }
 }
 @media (max-width: 322px) {
   .div-6 {
@@ -1372,6 +1378,11 @@ font-size: 2rem;
 }
 .div-71{
   width: 243px;
+}
+.div-73{
+  width: 220px;
+  padding: 11px;
+  justify-content: space-between;
 }
 }
 
