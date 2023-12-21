@@ -347,6 +347,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-18 {
       align-self: stretch;
@@ -406,6 +407,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-21 {
       align-self: stretch;
@@ -465,6 +467,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-24 {
       align-self: stretch;
@@ -543,6 +546,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-29 {
       align-self: stretch;
@@ -599,6 +603,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-32 {
       align-self: stretch;
@@ -658,6 +663,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-35 {
       align-self: stretch;
@@ -734,6 +740,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-40 {
       align-self: stretch;
@@ -793,6 +800,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-43 {
       align-self: stretch;
@@ -847,6 +855,7 @@ table {
       width: 56px;
       overflow: hidden;
       max-width: 100%;
+      padding-top: 10px;
     }
     .div-46 {
       align-self: stretch;
@@ -1325,4 +1334,9 @@ table {
   padding: 0px;
   width: 90%;
 }
-    }
+}
+@media (max-width: 826px) {
+  .div-71, .div-65, .div-67, .div-69{
+    font-size: 23px;
+  }
+}
