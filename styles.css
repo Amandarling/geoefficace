@@ -487,7 +487,7 @@ table {
       font: 400 16px/24px Inter, sans-serif;
     }
     @media (max-width: 991px) {
-      .div-25 {
+      .div-25, .div-44 {
         margin-bottom: 20px;
       }
      }
@@ -1402,4 +1402,131 @@ font-size: 2rem;
 }
 }
 
+/*  */
+.column-3 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-17 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-3:hover .div-17 {
+  transform: translateZ(20px);
+}
+.column-4 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-20 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-4:hover .div-20 {
+  transform: translateZ(20px);
+}
+.column-5 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-23 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-5:hover .div-23 {
+  transform: translateZ(20px);
+}
+.column-6 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-28 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-6:hover .div-28 {
+  transform: translateZ(20px);
+}
+.column-7 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-31 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-7:hover .div-31 {
+  transform: translateZ(20px);
+}
+.column-8 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-34 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-8:hover .div-34 {
+  transform: translateZ(20px);
+}
+.column-9 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-39 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-9:hover .div-39 {
+  transform: translateZ(20px);
+}
+.column-10 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-42 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-10:hover .div-42 {
+  transform: translateZ(20px);
+}
+.column-11 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.div-45 {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-11:hover .div-45 {
+  transform: translateZ(20px);
+}
 /*  */
