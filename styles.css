@@ -1379,9 +1379,6 @@ font-size: 2.3rem;
 .div-14, .div-53, .div-61{
 font-size: 2rem;
 }
-.div-51{
-  width: 262px;
-}
 .column-2{
   margin-left: 17px;
 }
@@ -1401,6 +1398,11 @@ font-size: 2rem;
   width: 120px;
 }
 }
+@media (max-width: 325px) {
+  .div-51{
+    width: 262px;
+  }
+ }
 
 /*  */
 .column-3 {
