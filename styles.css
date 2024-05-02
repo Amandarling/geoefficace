@@ -1133,7 +1133,7 @@ table {
       align-self: center;
       display: flex;
       margin-top: 65px;
-      width: 912px;
+      /* width: 912px; */
       max-width: 100%;
       flex-direction: column;
       padding: 0 9px;
