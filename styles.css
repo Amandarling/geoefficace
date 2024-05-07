@@ -267,6 +267,13 @@ table {
         margin-top: 40px;
       }
     }
+    .n-ferra{
+        display: flex;
+        width: 100%;
+        max-width: 1216px;
+        flex-direction: column;
+        /* padding: 0 20px; */
+    }
     .div-13 {
       color: #212121;
       align-self: stretch;
@@ -696,6 +703,7 @@ table {
     .div-38 {
       gap: 20px;
       display: flex;
+      margin-bottom: 124px;
     }
     @media (max-width: 991px) {
       .div-38 {
