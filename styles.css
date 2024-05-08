@@ -1035,7 +1035,7 @@ table {
     }
     .div-53 {
       color: #212121;
-      margin-top: 48px;
+      /* margin-top: 48px; */
       font: 700 40px Inter, sans-serif;
     }
     @media (max-width: 991px) {
