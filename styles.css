@@ -96,7 +96,7 @@ table {
       position: relative;
       margin-bottom: 77px;
       width: 100%;
-      max-width: 1216px;
+      max-width: 1500px;
     }
     @media (max-width: 991px) {
       .div-4 {
@@ -170,7 +170,7 @@ table {
     .img-2 {
       object-fit: contain;
       object-position: center;
-      width: 160px;
+      width: 180px;
       overflow: hidden;
       align-self: end;
       margin-top: 32px;
@@ -257,7 +257,7 @@ table {
       display: flex;
       margin-top: 124px;
       width: 100%;
-      max-width: 1216px;
+      max-width: 1500px;
       flex-direction: column;
       padding: 0 20px;
     }
@@ -270,14 +270,14 @@ table {
     .n-ferra{
         display: flex;
         width: 100%;
-        max-width: 1216px;
+        max-width: 1500px;
         flex-direction: column;
         /* padding: 0 20px; */
     }
     .div-13 {
       color: #212121;
       align-self: stretch;
-      font: 600 14px Inter, sans-serif;
+      font: 600 25px Inter, sans-serif;
       opacity: 0.5;
     }
     @media (max-width: 991px) {
@@ -1111,7 +1111,7 @@ table {
       align-self: center;
       margin-top: 124px;
       white-space: nowrap;
-      font: 600 14px Inter, sans-serif;
+      font: 600 25px Inter, sans-serif;
       opacity: 0.5;
     }
     @media (max-width: 991px) {
