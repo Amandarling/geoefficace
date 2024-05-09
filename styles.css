@@ -258,7 +258,7 @@ table {
     .div-12 {
       display: flex;
       margin-top: 124px;
-      width: 100%;
+      /* width: 100%; */
       max-width: 1500px;
       flex-direction: column;
       padding: 0 20px;
@@ -291,7 +291,7 @@ table {
     .div-14 {
       color: #212121;
       align-self: stretch;
-      margin-top: 51px;
+      margin-top: 124px;
       font: 700 40px Inter, sans-serif;
     }
     @media (max-width: 991px) {
@@ -313,11 +313,11 @@ table {
     .div-16 {
       gap: 20px;
       display: flex;
+      margin-top: 44px;
     }
     .div-16a {
       gap: 20px;
       display: flex;
-      margin-bottom: 100px;
     }
     @media (max-width: 991px) {
       .div-16 {
@@ -474,9 +474,27 @@ table {
       flex-direction: column;
       max-width: 100%;
       padding: 32px;
+      margin-bottom: 124px;
     }
     @media (max-width: 991px) {
       .div-20a {
+        margin-top: 50px;
+        padding: 0 20px;
+      }
+    }
+    .div-20b {
+      align-items: start;
+      border-radius: 16px;
+      background-color: #eef7ff;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 100%;
+      padding: 32px;
+      margin-bottom: 4px;
+    }
+    @media (max-width: 991px) {
+      .div-20b {
         margin-top: 50px;
         padding: 0 20px;
       }
