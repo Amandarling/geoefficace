@@ -1626,6 +1626,15 @@ font-size: 2rem;
 .column-4:hover .div-20a {
   transform: translateZ(20px);
 }
+.div-20b {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-4:hover .div-20b {
+  transform: translateZ(20px);
+}
 .column-5 {
   position: relative;
   perspective: 1000px;
