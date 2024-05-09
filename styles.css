@@ -314,8 +314,20 @@ table {
       gap: 20px;
       display: flex;
     }
+    .div-16a {
+      gap: 20px;
+      display: flex;
+      margin-bottom: 100px;
+    }
     @media (max-width: 991px) {
       .div-16 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    @media (max-width: 991px) {
+      .div-16a {
         flex-direction: column;
         align-items: stretch;
         gap: 0px;
@@ -349,6 +361,22 @@ table {
         padding: 0 20px;
       }
     }
+    .div-17a {
+      align-items: start;
+      border-radius: 16px;
+      background-color: #eef7ff;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 100%;
+      padding: 32px;
+    }
+    @media (max-width: 991px) {
+      .div-17a {
+        margin-top: 50px;
+        padding: 0 20px;
+      }
+    }
     .img-4 {
       aspect-ratio: 1;
       object-fit: contain;
@@ -372,6 +400,20 @@ table {
         margin-top: 40px;
       }
     }
+    .div-18a {
+      align-self: stretch;
+      color: #212121;
+      margin-top: 43px;
+      margin-left: 54px;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      font: 700 22px/33px Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-18a {
+        margin-top: 40px;
+      }
+    }
     .div-19 {
       align-self: stretch;
       color: #212121;
@@ -380,6 +422,17 @@ table {
     }
     @media (max-width: 991px) {
       .div-19 {
+        margin-bottom: 20px;
+      }
+    }
+    .div-19a {
+      align-self: stretch;
+      color: #212121;
+      margin-top: 16px;
+      font: 400 16px/24px Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-19a {
         margin-bottom: 20px;
       }
     }
@@ -412,6 +465,22 @@ table {
         padding: 0 20px;
       }
     }
+    .div-20a {
+      align-items: start;
+      border-radius: 16px;
+      background-color: #eef7ff;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 100%;
+      padding: 32px;
+    }
+    @media (max-width: 991px) {
+      .div-20a {
+        margin-top: 50px;
+        padding: 0 20px;
+      }
+    }
     .img-5 {
       aspect-ratio: 1;
       object-fit: contain;
@@ -435,6 +504,20 @@ table {
         margin-top: 40px;
       }
     }
+    .div-21a {
+      align-self: stretch;
+      color: #212121;
+      margin-top: 43px;
+      margin-left: 54px;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      font: 700 22px/33px Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-21a {
+        margin-top: 40px;
+      }
+    }
     .div-22 {
       align-self: stretch;
       color: #212121;
@@ -443,6 +526,17 @@ table {
     }
     @media (max-width: 991px) {
       .div-22 {
+        margin-bottom: 20px;
+      }
+     }
+     .div-22a {
+      align-self: stretch;
+      color: #212121;
+      margin-top: 16px;
+      font: 400 16px/24px Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-22a {
         margin-bottom: 20px;
       }
      }
@@ -475,6 +569,22 @@ table {
         padding: 0 20px;
       }
     }
+    .div-23a {
+      align-items: start;
+      border-radius: 16px;
+      background-color: #eef7ff;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 100%;
+      padding: 32px;
+    }
+    @media (max-width: 991px) {
+      .div-23a {
+        margin-top: 50px;
+        padding: 0 20px;
+      }
+    }
     .img-6 {
       aspect-ratio: 1;
       object-fit: contain;
@@ -495,6 +605,20 @@ table {
     }
     @media (max-width: 991px) {
       .div-24 {
+        margin-top: 40px;
+      }
+    }
+    .div-24a {
+      align-self: stretch;
+      color: #212121;
+      margin-top: 43px;
+      margin-left: 54px;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      font: 700 22px/33px Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-24a {
         margin-top: 40px;
       }
     }
@@ -521,6 +645,7 @@ table {
     .div-27 {
       gap: 20px;
       display: flex;
+      margin-bottom: 44px;
     }
     @media (max-width: 991px) {
       .div-27 {
@@ -723,7 +848,7 @@ table {
     .div-38 {
       gap: 20px;
       display: flex;
-      margin-bottom: 100px;
+      margin-bottom: 42px;
     }
     @media (max-width: 991px) {
       .div-38 {
@@ -1269,6 +1394,7 @@ table {
       flex-grow: 1;
       white-space: nowrap;
       font: 400 24px/150% Inter, sans-serif;
+      text-decoration: none;
     }
     @media (max-width: 991px) {
       .div-69 {
@@ -1471,6 +1597,15 @@ font-size: 2rem;
 }
 
 .column-4:hover .div-20 {
+  transform: translateZ(20px);
+}
+.div-20a {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.column-4:hover .div-20a {
   transform: translateZ(20px);
 }
 .column-5 {
